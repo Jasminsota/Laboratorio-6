@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música para el día</title>
+
+    <!-- Importamos el CSS de Bootstrap v5.3.3 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+     <!-- Realizamos navbar -->
+    <nav class="navbar navbar-expand-md fixed-top bg-light">
+        <div class="container-fluid">
+             <!-- Agregamos ícono -->
+              <a class="navbar-brand" href="#">
+                <i class="bi bi-music-note-beamed"></i>
+                <span class="text-dark">MPD</span>
+              </a>
+              <!-- Agregamos botón -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Agregamos elementos del menú colapsable -->
+               <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="Pagina1.html">
+                            Café tacvba
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a  class="nav-link text-secondary" href="Pagina2.html">
+                            Zoé  
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active bg-dark text-white" href="Pagina3.html">
+                            Caifanes
+                        </a>
+                    </li>
+                </ul>
+               </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-5 text-center">
+        <h2 class="display-4"><b>Caifanes</b></h2>
+    </div>
+
+    <!-- Realizamos sección información -->
+    <div class="container mt-3">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 text-center">
+            <h3>¿Quiénes son Caifanes?</h3>
+            <p class="fs-5">
+                Caifanes fue una banda de rock mexicana bajo la batuta de Saúl Hernández. Fue un elemento importante en el 
+                renacimiento de la escena rockera de su país a finales de los ochenta, cuando los grupos comenzaron a 
+                promoverse en los medios y ganaron mercado frente al pop. Para muchos se trata del grupo más representativo 
+                de los noventa. Tras su disolución, Hernández inició un nuevo proyecto, Jaguares.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <img src="IMAGENES/P3IMG1.jpg" class="img-fluid" alt="Caifanes">
+          </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+    <h4 class="fs-2 text-center bg-dark text-white p-2">Integrantes</h4>
+        <div class="row row-cols-1 row-cols-md-4 g-2">
+            <div class="col">
+              <div class="card">
+                <img src="IMAGENES/P3IMG2.jpg" class="card-img-top" alt="Saúl Hernández">
+                <div class="card-body">
+                  <h5 class="card-title">Saúl Hernández</h5>
+                  <p class="card-text"> guitarrista y vocalista.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="IMAGENES/P3IMG3.jpg" class="card-img-top" alt="Sabo Romo">
+                <div class="card-body">
+                  <h5 class="card-title">Sabo Romo</h5>
+                  <p class="card-text">Bajista</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="IMAGENES/P3IMG4.jpg" class="card-img-top" alt="Diego Herrera">
+                <div class="card-body">
+                  <h5 class="card-title">Diego Herrera</h5>
+                  <p class="card-text">Tecladista y Saxófonista</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="IMAGENES/P3IMG5.jpg" class="card-img-top" alt="Alfonso André">
+                <div class="card-body">
+                  <h5 class="card-title">Alfonso André</h5>
+                  <p class="card-text">Baterista</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container mt-3">
+        <h5 class="fs-2 bg-dark text-white p-2 text-center">Inicios de Caifanes</h5>
+        <p class="fs-6 m-2">
+            La historia de Caifanes comenzó en la Ciudad de México a principios de los años ochenta. 
+            En aquel entonces, el rock mexicano estaba en pleno auge y surgían nuevas bandas cada día. 
+            Fue en este contexto que Saúl Hernández y Sabo Romo decidieron formar una agrupación que se destacara 
+            por su originalidad y calidad musical.
+            <br> En 1984, junto a Alfonso André y Diego Herrera, se unieron para crear Caifanes. El nombre de la 
+            banda fue tomado de una película francesa llamada "El Graduado". En ella, un personaje llevaba una 
+            camiseta con la palabra "Kaifanes", que en realidad era una mala pronunciación de la marca "cafetines".
+            Así nació el nombre que se convertiría en una leyenda.
+        </p>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h5 class="fs-2 bg-dark text-white p-2 text-center">Álbums populares</h5>
+                    <div class="accordion" id="accordion">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <b>#1- El Diablito</b>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                              <strong>El Diablito</strong>
+                              "El diablito" es el segundo álbum de Caifanes y es conocido por ser uno de los más influyentes 
+                              en la historia del rock en español. Incluye éxitos como "La Celula Que Explota" y "Viento". Este 
+                              álbum ayudó a consolidar la popularidad de la banda en México y América Latina.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <b>#2- El Silencio</b>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                              <strong>El Silencio</strong>
+                              Este álbum es considerado uno de los mejores trabajos de Caifanes y contiene canciones icónicas 
+                              como "Afuera" y "No Dejes Que". "El Silencio" fue un gran éxito y consolidó la reputación de la 
+                              banda como una de las más importantes del rock en español.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              <b>#3- El Nervio del Volcán</b>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                              <strong>El Nervio del Volcán</strong>
+                              Este es el último álbum de estudio de Caifanes antes de su separación en 1995. Incluye éxitos como 
+                              "Aquellas Pequeñas Cosas" y "La Chica Banda". Fue bien recibido por la crítica y el público, y es 
+                              considerado un clásico del rock en español.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+            </div>
+    
+            <div class="col-12 col-md-6">
+                <h5 class="fs-2 bg-dark text-white p-2 text-center">Premios y reconocimientos</h5>
+                <p>
+                    Caifanes ha sido galardonado con numerosos premios a lo largo de su carrera, destacándose en la industria
+                     musical tanto nacional como internacionalmente. Algunos de los premios más importantes incluyen:
+                     <br> <b>Premio Lo Nuestro:</b> Caifanes ha sido reconocido en varias categorías de estos premios, 
+                     que celebran la excelencia en la música latina.
+                     <br> <b>MTV Video Music Awards Latinoamérica: </b>Han sido nominados y ganadores en varias categorías, 
+                     destacando su impacto en la música latina.
+                     <br> <br> Estos premios reflejan el impacto y la influencia de Caifanes en la música rock y alternativa en español, 
+                     así como su capacidad para conectar con audiencias de todo el mundo.
+                </p>
+            </div> 
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <h5 class="fs-2 bg-dark text-white p-2 text-center">Las mejores canciones de Caifanes</h5>
+        <div id="carousel3"class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"
+                ></button>
+    
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-current="true" aria-label="slide 2"
+                ></button>
+    
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-current="true" aria-label="slide 3"
+                ></button>
+            </div>
+    
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="IMAGENES/P3IMG6.jpg" class="d-block w-100" alt="La Célula Que Explota">
+                    <div class="carousel-caption">
+                        <h5 class="bg-dark text-white rounded"> La Célula Que Explota </h5>
+                        <p><a href="https://youtu.be/LltlG9sU6zg?si=kKz9-A8O7R3Y-NA8" class="btn btn-dark mt-3">
+                            ¡Presiona para escucharla!
+                        </a></p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="IMAGENES/P3IMG7.jpg" class="d-block w-100" alt="Aquí no es así">
+                    <div class="carousel-caption">
+                        <h5 class="bg-dark text-white rounded"> Aquí no es así </h5>
+                        <p><a href="https://youtu.be/MIMVSOiIEzM?si=wRKiT5ESlik4K6mL" class="btn btn-dark mt-3">
+                            ¡Presiona para escucharla!
+                        </a></p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="IMAGENES/P3IMG8.jpg" class="d-block w-100" alt="Viento">
+                    <div class="carousel-caption">
+                        <h5 class="bg-dark text-white rounded"> Viento </h5>
+                        <p><a href="https://youtu.be/T8TtE-enslA?si=WP7JgfmXXCbsWGKN" class="btn btn-dark mt-3">
+                            ¡Presiona para escucharla!
+                        </a></p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"> Next </span>
+                    </button>
+                </button>
+            </div>
+         </div>
+    </div>
+
+    
+
+
+    <!-- Importamos el JS de Bootstrap v5.3.3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
