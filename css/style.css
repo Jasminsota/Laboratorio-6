@@ -1,0 +1,18 @@
+.imagen{
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 50%;
+}
+.tarjeta{
+    border-radius: 10%;
+    color: white;
+    padding: 50px 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+#invitacion{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
